@@ -49,3 +49,4 @@ class VariancePredictor(nn.Module):
         x = x.transpose(1, 2)
         x = self.linear(x)
         return x
+
